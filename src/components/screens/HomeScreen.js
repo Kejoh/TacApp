@@ -28,7 +28,7 @@ export const HomePage = ({ navigation }) => {
           <Button 
             title="ENTRAR" 
             color="#c31d6a"
-            onPress={() => navigation.navigate('MiAppScreen')}
+            onPress={() => navigation.navigate('MiApp')}
             />
         </View>
       </ImageBackground>
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
   buttonEnter: {
     alignSelf: 'center',
     elevation: 35,
-    width: '94%',
+    width: '100%',
   },
   homie: {
     backgroundColor: 'pink',
