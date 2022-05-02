@@ -15,7 +15,6 @@ const HorizontalList = () => {
   return (
     <ScrollView>
       <Text style={styles.name}>TACATPP</Text>
-      <Information/>
       <CarrouselRecipes
         recipesList={Trending}
         title="Mi asesoramiento"
@@ -39,7 +38,7 @@ const HorizontalList = () => {
           sizeRecipe="medium"
         />
       )}
-      <Icon name="whatsapp" size={50} color="#c31d6a" style={styles.call}/>
+      <Icon name="whatsapp" size={50} color="#c31d6a" style={styles.call} />
     </ScrollView>
   );
 };
