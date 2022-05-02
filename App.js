@@ -11,14 +11,12 @@ import {SafeAreaView, StyleSheet} from 'react-native';
 import SearchBar from './src/components/SearchBar';
 import colors from './src/utils/colors';
 import HorizontalList from './src/components/HorizontalList';
-import { Navigation } from './src/navigation/Navigation';
 
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      {/*<SearchBar />
-      <HorizontalList />*/}
-      <Navigation />
+      {/*<SearchBar />*/}
+      <HorizontalList />
     </SafeAreaView>
   );
 };
